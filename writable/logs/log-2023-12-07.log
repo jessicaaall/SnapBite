@@ -1,0 +1,698 @@
+ERROR - 2023-12-07 05:48:10 --> Error connecting to the database: ErrorException: mysqli::real_connect(): php_network_getaddresses: getaddrinfo for http failed: nodename nor servname provided, or not known in /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', '/Users/filbertf...', 184)
+#1 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('http://sql12.fr...', 'sql12668373', Object(SensitiveParameterValue), 'sql12668373', 3306, '', 0)
+#2 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+#7 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Models/Customer.php(9): CodeIgniter\BaseModel->findAll()
+#8 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Controllers/CustomerController.php(12): App\Models\Customer->getDataCustomer()
+#9 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(942): App\Controllers\CustomerController->index()
+#10 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#11 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#13 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Commands/Server/rewrite.php(47): require_once('/Users/filbertf...')
+#14 {main}
+
+Next mysqli_sql_exception: php_network_getaddresses: getaddrinfo for http failed: nodename nor servname provided, or not known in /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('http://sql12.fr...', 'sql12668373', Object(SensitiveParameterValue), 'sql12668373', 3306, '', 0)
+#1 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+#6 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Models/Customer.php(9): CodeIgniter\BaseModel->findAll()
+#7 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Controllers/CustomerController.php(12): App\Models\Customer->getDataCustomer()
+#8 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(942): App\Controllers\CustomerController->index()
+#9 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#10 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Commands/Server/rewrite.php(47): require_once('/Users/filbertf...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: php_network_getaddresses: getaddrinfo for http failed: nodename nor servname provided, or not known in /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+#5 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Models/Customer.php(9): CodeIgniter\BaseModel->findAll()
+#6 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Controllers/CustomerController.php(12): App\Models\Customer->getDataCustomer()
+#7 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(942): App\Controllers\CustomerController->index()
+#8 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#9 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Commands/Server/rewrite.php(47): require_once('/Users/filbertf...')
+#12 {main}
+CRITICAL - 2023-12-07 05:48:10 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo for http failed: nodename nor servname provided, or not known
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Customer`', [], false)
+ 3 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Models/Customer.php(9): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH/Controllers/CustomerController.php(12): App\Models\Customer->getDataCustomer()
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CustomerController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/filbertfelim/Filbert Felim/TST-CodeIgniter/public/index.php')
+ERROR - 2023-12-07 05:49:05 --> Error connecting to the database: ErrorException: mysqli::real_connect(): php_network_getaddresses: getaddrinfo for http failed: nodename nor servname provided, or not known in /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', '/Users/filbertf...', 184)
+#1 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('http://sql12.fr...', 'sql12668373', Object(SensitiveParameterValue), 'sql12668373', 3306, '', 0)
+#2 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+#7 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Models/Customer.php(9): CodeIgniter\BaseModel->findAll()
+#8 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Controllers/CustomerController.php(12): App\Models\Customer->getDataCustomer()
+#9 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(942): App\Controllers\CustomerController->index()
+#10 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#11 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#13 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Commands/Server/rewrite.php(47): require_once('/Users/filbertf...')
+#14 {main}
+
+Next mysqli_sql_exception: php_network_getaddresses: getaddrinfo for http failed: nodename nor servname provided, or not known in /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('http://sql12.fr...', 'sql12668373', Object(SensitiveParameterValue), 'sql12668373', 3306, '', 0)
+#1 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+#6 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Models/Customer.php(9): CodeIgniter\BaseModel->findAll()
+#7 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Controllers/CustomerController.php(12): App\Models\Customer->getDataCustomer()
+#8 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(942): App\Controllers\CustomerController->index()
+#9 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#10 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Commands/Server/rewrite.php(47): require_once('/Users/filbertf...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: php_network_getaddresses: getaddrinfo for http failed: nodename nor servname provided, or not known in /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+#5 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Models/Customer.php(9): CodeIgniter\BaseModel->findAll()
+#6 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Controllers/CustomerController.php(12): App\Models\Customer->getDataCustomer()
+#7 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(942): App\Controllers\CustomerController->index()
+#8 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#9 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Commands/Server/rewrite.php(47): require_once('/Users/filbertf...')
+#12 {main}
+CRITICAL - 2023-12-07 05:49:05 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo for http failed: nodename nor servname provided, or not known
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Customer`', [], false)
+ 3 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Models/Customer.php(9): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH/Controllers/CustomerController.php(12): App\Models\Customer->getDataCustomer()
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CustomerController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/filbertfelim/Filbert Felim/TST-CodeIgniter/public/index.php')
+ERROR - 2023-12-07 05:49:06 --> Error connecting to the database: ErrorException: mysqli::real_connect(): php_network_getaddresses: getaddrinfo for http failed: nodename nor servname provided, or not known in /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', '/Users/filbertf...', 184)
+#1 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('http://sql12.fr...', 'sql12668373', Object(SensitiveParameterValue), 'sql12668373', 3306, '', 0)
+#2 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+#7 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Models/Customer.php(9): CodeIgniter\BaseModel->findAll()
+#8 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Controllers/CustomerController.php(12): App\Models\Customer->getDataCustomer()
+#9 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(942): App\Controllers\CustomerController->index()
+#10 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#11 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#13 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Commands/Server/rewrite.php(47): require_once('/Users/filbertf...')
+#14 {main}
+
+Next mysqli_sql_exception: php_network_getaddresses: getaddrinfo for http failed: nodename nor servname provided, or not known in /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('http://sql12.fr...', 'sql12668373', Object(SensitiveParameterValue), 'sql12668373', 3306, '', 0)
+#1 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+#6 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Models/Customer.php(9): CodeIgniter\BaseModel->findAll()
+#7 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Controllers/CustomerController.php(12): App\Models\Customer->getDataCustomer()
+#8 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(942): App\Controllers\CustomerController->index()
+#9 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#10 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Commands/Server/rewrite.php(47): require_once('/Users/filbertf...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: php_network_getaddresses: getaddrinfo for http failed: nodename nor servname provided, or not known in /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+#5 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Models/Customer.php(9): CodeIgniter\BaseModel->findAll()
+#6 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Controllers/CustomerController.php(12): App\Models\Customer->getDataCustomer()
+#7 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(942): App\Controllers\CustomerController->index()
+#8 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#9 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Commands/Server/rewrite.php(47): require_once('/Users/filbertf...')
+#12 {main}
+CRITICAL - 2023-12-07 05:49:06 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo for http failed: nodename nor servname provided, or not known
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Customer`', [], false)
+ 3 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Models/Customer.php(9): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH/Controllers/CustomerController.php(12): App\Models\Customer->getDataCustomer()
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CustomerController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/filbertfelim/Filbert Felim/TST-CodeIgniter/public/index.php')
+ERROR - 2023-12-07 05:49:06 --> Error connecting to the database: ErrorException: mysqli::real_connect(): php_network_getaddresses: getaddrinfo for http failed: nodename nor servname provided, or not known in /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', '/Users/filbertf...', 184)
+#1 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('http://sql12.fr...', 'sql12668373', Object(SensitiveParameterValue), 'sql12668373', 3306, '', 0)
+#2 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+#7 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Models/Customer.php(9): CodeIgniter\BaseModel->findAll()
+#8 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Controllers/CustomerController.php(12): App\Models\Customer->getDataCustomer()
+#9 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(942): App\Controllers\CustomerController->index()
+#10 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#11 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#13 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Commands/Server/rewrite.php(47): require_once('/Users/filbertf...')
+#14 {main}
+
+Next mysqli_sql_exception: php_network_getaddresses: getaddrinfo for http failed: nodename nor servname provided, or not known in /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('http://sql12.fr...', 'sql12668373', Object(SensitiveParameterValue), 'sql12668373', 3306, '', 0)
+#1 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+#6 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Models/Customer.php(9): CodeIgniter\BaseModel->findAll()
+#7 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Controllers/CustomerController.php(12): App\Models\Customer->getDataCustomer()
+#8 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(942): App\Controllers\CustomerController->index()
+#9 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#10 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Commands/Server/rewrite.php(47): require_once('/Users/filbertf...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: php_network_getaddresses: getaddrinfo for http failed: nodename nor servname provided, or not known in /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+#5 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Models/Customer.php(9): CodeIgniter\BaseModel->findAll()
+#6 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Controllers/CustomerController.php(12): App\Models\Customer->getDataCustomer()
+#7 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(942): App\Controllers\CustomerController->index()
+#8 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#9 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Commands/Server/rewrite.php(47): require_once('/Users/filbertf...')
+#12 {main}
+CRITICAL - 2023-12-07 05:49:06 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo for http failed: nodename nor servname provided, or not known
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Customer`', [], false)
+ 3 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Models/Customer.php(9): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH/Controllers/CustomerController.php(12): App\Models\Customer->getDataCustomer()
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CustomerController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/filbertfelim/Filbert Felim/TST-CodeIgniter/public/index.php')
+ERROR - 2023-12-07 05:49:06 --> Error connecting to the database: ErrorException: mysqli::real_connect(): php_network_getaddresses: getaddrinfo for http failed: nodename nor servname provided, or not known in /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', '/Users/filbertf...', 184)
+#1 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('http://sql12.fr...', 'sql12668373', Object(SensitiveParameterValue), 'sql12668373', 3306, '', 0)
+#2 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+#7 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Models/Customer.php(9): CodeIgniter\BaseModel->findAll()
+#8 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Controllers/CustomerController.php(12): App\Models\Customer->getDataCustomer()
+#9 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(942): App\Controllers\CustomerController->index()
+#10 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#11 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#13 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Commands/Server/rewrite.php(47): require_once('/Users/filbertf...')
+#14 {main}
+
+Next mysqli_sql_exception: php_network_getaddresses: getaddrinfo for http failed: nodename nor servname provided, or not known in /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('http://sql12.fr...', 'sql12668373', Object(SensitiveParameterValue), 'sql12668373', 3306, '', 0)
+#1 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+#6 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Models/Customer.php(9): CodeIgniter\BaseModel->findAll()
+#7 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Controllers/CustomerController.php(12): App\Models\Customer->getDataCustomer()
+#8 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(942): App\Controllers\CustomerController->index()
+#9 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#10 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Commands/Server/rewrite.php(47): require_once('/Users/filbertf...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: php_network_getaddresses: getaddrinfo for http failed: nodename nor servname provided, or not known in /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+#5 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Models/Customer.php(9): CodeIgniter\BaseModel->findAll()
+#6 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Controllers/CustomerController.php(12): App\Models\Customer->getDataCustomer()
+#7 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(942): App\Controllers\CustomerController->index()
+#8 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#9 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Commands/Server/rewrite.php(47): require_once('/Users/filbertf...')
+#12 {main}
+CRITICAL - 2023-12-07 05:49:06 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo for http failed: nodename nor servname provided, or not known
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Customer`', [], false)
+ 3 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Models/Customer.php(9): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH/Controllers/CustomerController.php(12): App\Models\Customer->getDataCustomer()
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CustomerController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/filbertfelim/Filbert Felim/TST-CodeIgniter/public/index.php')
+ERROR - 2023-12-07 05:49:06 --> Error connecting to the database: ErrorException: mysqli::real_connect(): php_network_getaddresses: getaddrinfo for http failed: nodename nor servname provided, or not known in /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', '/Users/filbertf...', 184)
+#1 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('http://sql12.fr...', 'sql12668373', Object(SensitiveParameterValue), 'sql12668373', 3306, '', 0)
+#2 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+#7 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Models/Customer.php(9): CodeIgniter\BaseModel->findAll()
+#8 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Controllers/CustomerController.php(12): App\Models\Customer->getDataCustomer()
+#9 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(942): App\Controllers\CustomerController->index()
+#10 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#11 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#13 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Commands/Server/rewrite.php(47): require_once('/Users/filbertf...')
+#14 {main}
+
+Next mysqli_sql_exception: php_network_getaddresses: getaddrinfo for http failed: nodename nor servname provided, or not known in /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('http://sql12.fr...', 'sql12668373', Object(SensitiveParameterValue), 'sql12668373', 3306, '', 0)
+#1 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+#6 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Models/Customer.php(9): CodeIgniter\BaseModel->findAll()
+#7 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Controllers/CustomerController.php(12): App\Models\Customer->getDataCustomer()
+#8 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(942): App\Controllers\CustomerController->index()
+#9 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#10 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Commands/Server/rewrite.php(47): require_once('/Users/filbertf...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: php_network_getaddresses: getaddrinfo for http failed: nodename nor servname provided, or not known in /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+#5 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Models/Customer.php(9): CodeIgniter\BaseModel->findAll()
+#6 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Controllers/CustomerController.php(12): App\Models\Customer->getDataCustomer()
+#7 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(942): App\Controllers\CustomerController->index()
+#8 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#9 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Commands/Server/rewrite.php(47): require_once('/Users/filbertf...')
+#12 {main}
+CRITICAL - 2023-12-07 05:49:06 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo for http failed: nodename nor servname provided, or not known
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Customer`', [], false)
+ 3 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Models/Customer.php(9): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH/Controllers/CustomerController.php(12): App\Models\Customer->getDataCustomer()
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CustomerController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/filbertfelim/Filbert Felim/TST-CodeIgniter/public/index.php')
+ERROR - 2023-12-07 05:49:07 --> Error connecting to the database: ErrorException: mysqli::real_connect(): php_network_getaddresses: getaddrinfo for http failed: nodename nor servname provided, or not known in /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', '/Users/filbertf...', 184)
+#1 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('http://sql12.fr...', 'sql12668373', Object(SensitiveParameterValue), 'sql12668373', 3306, '', 0)
+#2 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+#7 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Models/Customer.php(9): CodeIgniter\BaseModel->findAll()
+#8 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Controllers/CustomerController.php(12): App\Models\Customer->getDataCustomer()
+#9 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(942): App\Controllers\CustomerController->index()
+#10 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#11 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#13 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Commands/Server/rewrite.php(47): require_once('/Users/filbertf...')
+#14 {main}
+
+Next mysqli_sql_exception: php_network_getaddresses: getaddrinfo for http failed: nodename nor servname provided, or not known in /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('http://sql12.fr...', 'sql12668373', Object(SensitiveParameterValue), 'sql12668373', 3306, '', 0)
+#1 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+#6 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Models/Customer.php(9): CodeIgniter\BaseModel->findAll()
+#7 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Controllers/CustomerController.php(12): App\Models\Customer->getDataCustomer()
+#8 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(942): App\Controllers\CustomerController->index()
+#9 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#10 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Commands/Server/rewrite.php(47): require_once('/Users/filbertf...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: php_network_getaddresses: getaddrinfo for http failed: nodename nor servname provided, or not known in /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+#5 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Models/Customer.php(9): CodeIgniter\BaseModel->findAll()
+#6 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Controllers/CustomerController.php(12): App\Models\Customer->getDataCustomer()
+#7 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(942): App\Controllers\CustomerController->index()
+#8 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#9 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Commands/Server/rewrite.php(47): require_once('/Users/filbertf...')
+#12 {main}
+CRITICAL - 2023-12-07 05:49:07 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo for http failed: nodename nor servname provided, or not known
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Customer`', [], false)
+ 3 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Models/Customer.php(9): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH/Controllers/CustomerController.php(12): App\Models\Customer->getDataCustomer()
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CustomerController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/filbertfelim/Filbert Felim/TST-CodeIgniter/public/index.php')
+ERROR - 2023-12-07 05:49:07 --> Error connecting to the database: ErrorException: mysqli::real_connect(): php_network_getaddresses: getaddrinfo for http failed: nodename nor servname provided, or not known in /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', '/Users/filbertf...', 184)
+#1 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('http://sql12.fr...', 'sql12668373', Object(SensitiveParameterValue), 'sql12668373', 3306, '', 0)
+#2 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+#7 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Models/Customer.php(9): CodeIgniter\BaseModel->findAll()
+#8 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Controllers/CustomerController.php(12): App\Models\Customer->getDataCustomer()
+#9 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(942): App\Controllers\CustomerController->index()
+#10 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#11 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#13 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Commands/Server/rewrite.php(47): require_once('/Users/filbertf...')
+#14 {main}
+
+Next mysqli_sql_exception: php_network_getaddresses: getaddrinfo for http failed: nodename nor servname provided, or not known in /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('http://sql12.fr...', 'sql12668373', Object(SensitiveParameterValue), 'sql12668373', 3306, '', 0)
+#1 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+#6 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Models/Customer.php(9): CodeIgniter\BaseModel->findAll()
+#7 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Controllers/CustomerController.php(12): App\Models\Customer->getDataCustomer()
+#8 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(942): App\Controllers\CustomerController->index()
+#9 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#10 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Commands/Server/rewrite.php(47): require_once('/Users/filbertf...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: php_network_getaddresses: getaddrinfo for http failed: nodename nor servname provided, or not known in /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+#5 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Models/Customer.php(9): CodeIgniter\BaseModel->findAll()
+#6 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Controllers/CustomerController.php(12): App\Models\Customer->getDataCustomer()
+#7 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(942): App\Controllers\CustomerController->index()
+#8 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#9 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Commands/Server/rewrite.php(47): require_once('/Users/filbertf...')
+#12 {main}
+CRITICAL - 2023-12-07 05:49:07 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo for http failed: nodename nor servname provided, or not known
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Customer`', [], false)
+ 3 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Models/Customer.php(9): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH/Controllers/CustomerController.php(12): App\Models\Customer->getDataCustomer()
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CustomerController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/filbertfelim/Filbert Felim/TST-CodeIgniter/public/index.php')
+ERROR - 2023-12-07 05:49:09 --> Error connecting to the database: ErrorException: mysqli::real_connect(): php_network_getaddresses: getaddrinfo for http failed: nodename nor servname provided, or not known in /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', '/Users/filbertf...', 184)
+#1 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('http://sql12.fr...', 'sql12668373', Object(SensitiveParameterValue), 'sql12668373', 3306, '', 0)
+#2 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+#7 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Models/Customer.php(9): CodeIgniter\BaseModel->findAll()
+#8 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Controllers/CustomerController.php(12): App\Models\Customer->getDataCustomer()
+#9 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(942): App\Controllers\CustomerController->index()
+#10 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#11 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#13 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Commands/Server/rewrite.php(47): require_once('/Users/filbertf...')
+#14 {main}
+
+Next mysqli_sql_exception: php_network_getaddresses: getaddrinfo for http failed: nodename nor servname provided, or not known in /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('http://sql12.fr...', 'sql12668373', Object(SensitiveParameterValue), 'sql12668373', 3306, '', 0)
+#1 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+#6 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Models/Customer.php(9): CodeIgniter\BaseModel->findAll()
+#7 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Controllers/CustomerController.php(12): App\Models\Customer->getDataCustomer()
+#8 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(942): App\Controllers\CustomerController->index()
+#9 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#10 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Commands/Server/rewrite.php(47): require_once('/Users/filbertf...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: php_network_getaddresses: getaddrinfo for http failed: nodename nor servname provided, or not known in /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+#5 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Models/Customer.php(9): CodeIgniter\BaseModel->findAll()
+#6 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Controllers/CustomerController.php(12): App\Models\Customer->getDataCustomer()
+#7 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(942): App\Controllers\CustomerController->index()
+#8 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#9 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Commands/Server/rewrite.php(47): require_once('/Users/filbertf...')
+#12 {main}
+CRITICAL - 2023-12-07 05:49:09 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo for http failed: nodename nor servname provided, or not known
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Customer`', [], false)
+ 3 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Models/Customer.php(9): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH/Controllers/CustomerController.php(12): App\Models\Customer->getDataCustomer()
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CustomerController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/filbertfelim/Filbert Felim/TST-CodeIgniter/public/index.php')
+ERROR - 2023-12-07 05:49:12 --> Error connecting to the database: ErrorException: mysqli::real_connect(): php_network_getaddresses: getaddrinfo for http failed: nodename nor servname provided, or not known in /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', '/Users/filbertf...', 184)
+#1 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('http://sql12.fr...', 'sql12668373', Object(SensitiveParameterValue), 'sql12668373', 3306, '', 0)
+#2 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+#7 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Models/Customer.php(9): CodeIgniter\BaseModel->findAll()
+#8 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Controllers/CustomerController.php(12): App\Models\Customer->getDataCustomer()
+#9 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(942): App\Controllers\CustomerController->index()
+#10 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#11 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#13 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Commands/Server/rewrite.php(47): require_once('/Users/filbertf...')
+#14 {main}
+
+Next mysqli_sql_exception: php_network_getaddresses: getaddrinfo for http failed: nodename nor servname provided, or not known in /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('http://sql12.fr...', 'sql12668373', Object(SensitiveParameterValue), 'sql12668373', 3306, '', 0)
+#1 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+#6 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Models/Customer.php(9): CodeIgniter\BaseModel->findAll()
+#7 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Controllers/CustomerController.php(12): App\Models\Customer->getDataCustomer()
+#8 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(942): App\Controllers\CustomerController->index()
+#9 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#10 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Commands/Server/rewrite.php(47): require_once('/Users/filbertf...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: php_network_getaddresses: getaddrinfo for http failed: nodename nor servname provided, or not known in /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+#5 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Models/Customer.php(9): CodeIgniter\BaseModel->findAll()
+#6 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Controllers/CustomerController.php(12): App\Models\Customer->getDataCustomer()
+#7 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(942): App\Controllers\CustomerController->index()
+#8 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#9 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /Users/filbertfelim/Filbert Felim/TST-CodeIgniter/system/Commands/Server/rewrite.php(47): require_once('/Users/filbertf...')
+#12 {main}
+CRITICAL - 2023-12-07 05:49:12 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo for http failed: nodename nor servname provided, or not known
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Customer`', [], false)
+ 3 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Models/Customer.php(9): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH/Controllers/CustomerController.php(12): App\Models\Customer->getDataCustomer()
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CustomerController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/filbertfelim/Filbert Felim/TST-CodeIgniter/public/index.php')
+CRITICAL - 2023-12-07 05:50:02 --> Array to string conversion
+in APPPATH/Controllers/CustomerController.php on line 13.
+ 1 APPPATH/Controllers/CustomerController.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Controllers/CustomerController.php', 13)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CustomerController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/filbertfelim/Filbert Felim/TST-CodeIgniter/public/index.php')
+CRITICAL - 2023-12-07 05:51:03 --> Undefined array key 0
+in APPPATH/Controllers/CustomerController.php on line 13.
+ 1 APPPATH/Controllers/CustomerController.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', '/Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Controllers/CustomerController.php', 13)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CustomerController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/filbertfelim/Filbert Felim/TST-CodeIgniter/public/index.php')
+CRITICAL - 2023-12-07 05:51:04 --> Undefined array key 0
+in APPPATH/Controllers/CustomerController.php on line 13.
+ 1 APPPATH/Controllers/CustomerController.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', '/Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Controllers/CustomerController.php', 13)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CustomerController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/filbertfelim/Filbert Felim/TST-CodeIgniter/public/index.php')
+CRITICAL - 2023-12-07 05:54:10 --> Undefined array key "lokasiX"
+in APPPATH/Controllers/CustomerController.php on line 13.
+ 1 APPPATH/Controllers/CustomerController.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "lokasiX"', '/Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Controllers/CustomerController.php', 13)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CustomerController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/filbertfelim/Filbert Felim/TST-CodeIgniter/public/index.php')
+CRITICAL - 2023-12-07 05:54:11 --> Undefined array key "lokasiX"
+in APPPATH/Controllers/CustomerController.php on line 13.
+ 1 APPPATH/Controllers/CustomerController.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "lokasiX"', '/Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Controllers/CustomerController.php', 13)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CustomerController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/filbertfelim/Filbert Felim/TST-CodeIgniter/public/index.php')
+CRITICAL - 2023-12-07 05:54:12 --> Undefined array key "lokasiX"
+in APPPATH/Controllers/CustomerController.php on line 13.
+ 1 APPPATH/Controllers/CustomerController.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "lokasiX"', '/Users/filbertfelim/Filbert Felim/TST-CodeIgniter/app/Controllers/CustomerController.php', 13)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CustomerController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/filbertfelim/Filbert Felim/TST-CodeIgniter/public/index.php')
