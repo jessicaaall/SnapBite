@@ -1,0 +1,378 @@
+INFO - 2023-12-08 06:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 06:48:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:08:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:08:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:08:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:08:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:08:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:08:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:08:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:08:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:08:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:10:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:10:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:10:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:10:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:10:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-08 07:12:30 --> Array to string conversion
+in APPPATH\Controllers\LoginController.php on line 25.
+ 1 APPPATH\Controllers\LoginController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\app\\Controllers\\LoginController.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->loginAuth()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\public\\index.php')
+INFO - 2023-12-08 07:15:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-08 07:15:56 --> Array to string conversion
+in APPPATH\Controllers\LoginController.php on line 26.
+ 1 APPPATH\Controllers\LoginController.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\app\\Controllers\\LoginController.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->loginAuth()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\public\\index.php')
+INFO - 2023-12-08 07:15:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-08 07:16:00 --> Array to string conversion
+in APPPATH\Controllers\LoginController.php on line 26.
+ 1 APPPATH\Controllers\LoginController.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\app\\Controllers\\LoginController.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->loginAuth()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\public\\index.php')
+INFO - 2023-12-08 07:16:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:16:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:18:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:18:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:18:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:19:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:19:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:21:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:23:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:23:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:23:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:26:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:26:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:26:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:27:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:27:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:27:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 07:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 08:57:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 08:57:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 08:57:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 08:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 08:57:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 08:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 08:57:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 09:02:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 09:02:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 09:10:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 09:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 09:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 09:10:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 09:10:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-08 10:39:22 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql12.freesqlda...', 'sql12668373', Object(SensitiveParameterValue), 'sql12668373', 3306, '', 0)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Models\Customer.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\CustomerController.php(13): App\Models\Customer->getDataCustomer()
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\CustomerController->index()
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Models\Customer.php(16): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\CustomerController.php(13): App\Models\Customer->getDataCustomer()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\CustomerController->index()
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#12 {main}
+CRITICAL - 2023-12-08 10:39:22 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Customer`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\Customer.php(16): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\CustomerController.php(13): App\Models\Customer->getDataCustomer()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CustomerController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\public\\index.php')
+ERROR - 2023-12-08 10:39:22 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql12.freesqlda...', 'sql12668373', Object(SensitiveParameterValue), 'sql12668373', 3306, '', 0)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Models\Customer.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\CustomerController.php(13): App\Models\Customer->getDataCustomer()
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\CustomerController->index()
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Models\Customer.php(16): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\CustomerController.php(13): App\Models\Customer->getDataCustomer()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\CustomerController->index()
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#12 {main}
+CRITICAL - 2023-12-08 10:39:22 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Customer`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\Customer.php(16): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\CustomerController.php(13): App\Models\Customer->getDataCustomer()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CustomerController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\public\\index.php')
+ERROR - 2023-12-08 10:39:53 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql12.freesqlda...', 'sql12668373', Object(SensitiveParameterValue), 'sql12668373', 3306, '', 0)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Models\Customer.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\CustomerController.php(13): App\Models\Customer->getDataCustomer()
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\CustomerController->index()
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Models\Customer.php(16): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\CustomerController.php(13): App\Models\Customer->getDataCustomer()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\CustomerController->index()
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#12 {main}
+CRITICAL - 2023-12-08 10:39:53 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Customer`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\Customer.php(16): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\CustomerController.php(13): App\Models\Customer->getDataCustomer()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CustomerController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\public\\index.php')
+ERROR - 2023-12-08 10:39:54 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql12.freesqlda...', 'sql12668373', Object(SensitiveParameterValue), 'sql12668373', 3306, '', 0)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Models\Customer.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\CustomerController.php(13): App\Models\Customer->getDataCustomer()
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\CustomerController->index()
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Models\Customer.php(16): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\CustomerController.php(13): App\Models\Customer->getDataCustomer()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\CustomerController->index()
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#12 {main}
+CRITICAL - 2023-12-08 10:39:54 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Customer`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\Customer.php(16): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\CustomerController.php(13): App\Models\Customer->getDataCustomer()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CustomerController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\public\\index.php')
+ERROR - 2023-12-08 10:39:55 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql12.freesqlda...', 'sql12668373', Object(SensitiveParameterValue), 'sql12668373', 3306, '', 0)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Models\Customer.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\CustomerController.php(13): App\Models\Customer->getDataCustomer()
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\CustomerController->index()
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Models\Customer.php(16): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\CustomerController.php(13): App\Models\Customer->getDataCustomer()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\CustomerController->index()
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#12 {main}
+CRITICAL - 2023-12-08 10:39:55 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Customer`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\Customer.php(16): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\CustomerController.php(13): App\Models\Customer->getDataCustomer()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CustomerController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\public\\index.php')
+ERROR - 2023-12-08 10:40:41 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql12.freesqlda...', 'sql12668373', Object(SensitiveParameterValue), 'sql12668373', 3306, '', 0)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Models\Customer.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\CustomerController.php(13): App\Models\Customer->getDataCustomer()
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\CustomerController->index()
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Models\Customer.php(16): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\CustomerController.php(13): App\Models\Customer->getDataCustomer()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\CustomerController->index()
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#12 {main}
+CRITICAL - 2023-12-08 10:40:41 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Customer`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(634): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\Customer.php(16): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\CustomerController.php(13): App\Models\Customer->getDataCustomer()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CustomerController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\public\\index.php')
