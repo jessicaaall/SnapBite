@@ -1,11 +1,11 @@
 <?php
- 
+
 namespace App\Filters;
- 
+
 use CodeIgniter\Filters\FilterInterface;
 use CodeIgniter\HTTP\RequestInterface;
 use CodeIgniter\HTTP\ResponseInterface;
- 
+
 class Cors implements FilterInterface
 {
     /**
@@ -13,7 +13,7 @@ class Cors implements FilterInterface
      * By default it should not return anything during
      * normal execution. However, when an abnormal state
      * is found, it should return an instance of
-     * CodeIgniterHTTPResponse. If it does, script
+     * CodeIgniter\HTTP\Response. If it does, script
      * execution will end and that Response will be
      * sent back to the client, allowing for error pages,
      * redirects, etc.
@@ -33,7 +33,7 @@ class Cors implements FilterInterface
             die();
         }
     }
- 
+
     /**
      * Allows After filters to inspect and modify the response
      * object as needed. This method does not allow any way

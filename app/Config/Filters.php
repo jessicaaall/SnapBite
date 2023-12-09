@@ -8,6 +8,7 @@ use CodeIgniter\Filters\DebugToolbar;
 use CodeIgniter\Filters\Honeypot;
 use CodeIgniter\Filters\InvalidChars;
 use CodeIgniter\Filters\SecureHeaders;
+use App\Filters\Cors;
 
 class Filters extends BaseConfig
 {
@@ -25,7 +26,7 @@ class Filters extends BaseConfig
 		'authGuard' => \App\Filters\AuthGuard::class,
         'invalidchars'  => InvalidChars::class,
         'secureheaders' => SecureHeaders::class,
-        'cors'     => App\Filters\Cors::class,
+        'cors'          => Cors::class, 
     ];
 
     /**
