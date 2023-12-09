@@ -1,13 +1,15 @@
-<?php 
-namespace App\Controllers;  
+<?php
+
+namespace App\Controllers;
+
 use CodeIgniter\Controller;
-  
+
 class ProfileController extends Controller
 {
     public function index()
     {
         $session = session();
-        echo "Hello : ".$session->get('username');
-        echo "Hello : ".$session->get('saldo');
+        echo "Hello : " . $session->get('username');
+        echo "Hello : " . $session->get('saldo');
     }
 }
