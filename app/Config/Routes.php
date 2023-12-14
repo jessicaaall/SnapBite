@@ -12,3 +12,5 @@ $routes->get('/customer', 'CustomerController::index');
 $routes->get('/login', 'AuthController::index');
 $routes->match(['get', 'post'], 'AuthController/loginAuth', 'AuthController::loginAuth');
 $routes->get('/logout', 'AuthController::logout');
+
+$routes->get('/pemesananAPI/?(:any)?', 'PemesananController::index/$1');

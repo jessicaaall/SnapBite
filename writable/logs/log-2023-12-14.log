@@ -1,0 +1,340 @@
+INFO - 2023-12-14 09:48:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 09:48:30 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'sql12668373'@'202.138.252.60' (using password: YES) in C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql12.freesqlda...', 'sql12668373', Object(SensitiveParameterValue), 'sql12668373', 3306, '', 0)
+#1 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\BaseModel.php(672): CodeIgniter\Model->doFirst()
+#6 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#7 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+#8 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\D...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'202.138.252.60' (using password: YES) in C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\BaseModel.php(672): CodeIgniter\Model->doFirst()
+#5 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#6 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+#7 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\D...')
+#11 {main}
+CRITICAL - 2023-12-14 09:48:30 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'202.138.252.60' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Customer`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(672): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\tst\\TST-CodeIgniter\\public\\index.php')
+INFO - 2023-12-14 09:49:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 09:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 09:49:36 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'sql12668373'@'202.138.252.60' (using password: YES) in C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql12.freesqlda...', 'sql12668373', Object(SensitiveParameterValue), 'sql12668373', 3306, '', 0)
+#1 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\BaseModel.php(672): CodeIgniter\Model->doFirst()
+#6 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#7 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+#8 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\D...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'202.138.252.60' (using password: YES) in C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\BaseModel.php(672): CodeIgniter\Model->doFirst()
+#5 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#6 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+#7 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\D...')
+#11 {main}
+CRITICAL - 2023-12-14 09:49:36 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'202.138.252.60' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Customer`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(672): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\tst\\TST-CodeIgniter\\public\\index.php')
+INFO - 2023-12-14 09:52:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 09:52:51 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'sql12668373'@'202.138.252.60' (using password: YES) in C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql12.freesqlda...', 'sql12668373', Object(SensitiveParameterValue), 'sql12668373', 3306, '', 0)
+#1 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\BaseModel.php(672): CodeIgniter\Model->doFirst()
+#6 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#7 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+#8 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\D...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'202.138.252.60' (using password: YES) in C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\BaseModel.php(672): CodeIgniter\Model->doFirst()
+#5 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#6 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+#7 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\D...')
+#11 {main}
+CRITICAL - 2023-12-14 09:52:51 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'202.138.252.60' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Customer`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(672): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\tst\\TST-CodeIgniter\\public\\index.php')
+INFO - 2023-12-14 10:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 10:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:38:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:38:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:38:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 12:59:38 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`END` ASC' at line 4 in C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `Pemesan...', 0)
+#1 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Pemesan...')
+#2 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Pemesan...')
+#3 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT `Pemesan...', Array, false)
+#4 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\app\Models\Pemesanan.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\app\Controllers\PemesananController.php(14): App\Models\Pemesanan->getDataPemesananRestoran('""')
+#6 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\PemesananController->index('""')
+#7 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemesananController))
+#8 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\D...')
+#11 {main}
+CRITICAL - 2023-12-14 12:59:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`END` ASC' at line 4
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT `Pemesanan`.`id`, `Pemesanan`.`tanggalPemesanan` as `orderDate`, `Pemesanan`.`totalHarga`, `Pemesanan`.`status`
+FROM `Pemesanan`
+WHERE `Pemesanan`.`restoranId` = :Pemesanan.restoranId:
+ORDER BY `Pemesanan`.`tanggalPemesanan` DESC, `CASE WHEN Pemesanan`.`status = "Ongoing" THEN 0 ELSE 1` `END` ASC', [...], false)
+ 2 APPPATH\Models\Pemesanan.php(27): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\PemesananController.php(14): App\Models\Pemesanan->getDataPemesananRestoran('""')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PemesananController->index('""')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemesananController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\tst\\TST-CodeIgniter\\public\\index.php')
+INFO - 2023-12-14 12:59:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:59:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:00:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:00:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:00:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:00:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 13:00:19 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`END` ASC' at line 4 in C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `Pemesan...', 0)
+#1 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Pemesan...')
+#2 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Pemesan...')
+#3 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT `Pemesan...', Array, false)
+#4 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\app\Models\Pemesanan.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\app\Controllers\PemesananController.php(14): App\Models\Pemesanan->getDataPemesananRestoran('""')
+#6 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\PemesananController->index('""')
+#7 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemesananController))
+#8 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\D...')
+#11 {main}
+CRITICAL - 2023-12-14 13:00:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`END` ASC' at line 4
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT `Pemesanan`.`id`, `Pemesanan`.`tanggalPemesanan` as `orderDate`, `Pemesanan`.`totalHarga`, `Pemesanan`.`status`
+FROM `Pemesanan`
+WHERE `Pemesanan`.`restoranId` = :Pemesanan.restoranId:
+ORDER BY `Pemesanan`.`tanggalPemesanan` DESC, `CASE WHEN Pemesanan`.`status = "Ongoing" THEN 0 ELSE 1` `END` ASC', [...], false)
+ 2 APPPATH\Models\Pemesanan.php(27): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\PemesananController.php(14): App\Models\Pemesanan->getDataPemesananRestoran('""')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PemesananController->index('""')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemesananController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\tst\\TST-CodeIgniter\\public\\index.php')
+ERROR - 2023-12-14 13:00:21 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`END` ASC' at line 4 in C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `Pemesan...', 0)
+#1 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Pemesan...')
+#2 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Pemesan...')
+#3 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT `Pemesan...', Array, false)
+#4 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\app\Models\Pemesanan.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\app\Controllers\PemesananController.php(14): App\Models\Pemesanan->getDataPemesananRestoran('""')
+#6 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\PemesananController->index('""')
+#7 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemesananController))
+#8 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\D...')
+#11 {main}
+CRITICAL - 2023-12-14 13:00:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`END` ASC' at line 4
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT `Pemesanan`.`id`, `Pemesanan`.`tanggalPemesanan` as `orderDate`, `Pemesanan`.`totalHarga`, `Pemesanan`.`status`
+FROM `Pemesanan`
+WHERE `Pemesanan`.`restoranId` = :Pemesanan.restoranId:
+ORDER BY `Pemesanan`.`tanggalPemesanan` DESC, `CASE WHEN Pemesanan`.`status = "Ongoing" THEN 0 ELSE 1` `END` ASC', [...], false)
+ 2 APPPATH\Models\Pemesanan.php(27): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\PemesananController.php(14): App\Models\Pemesanan->getDataPemesananRestoran('""')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PemesananController->index('""')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemesananController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\tst\\TST-CodeIgniter\\public\\index.php')
+ERROR - 2023-12-14 13:01:00 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`END` ASC' at line 4 in C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `Pemesan...', 0)
+#1 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Pemesan...')
+#2 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Pemesan...')
+#3 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT `Pemesan...', Array, false)
+#4 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\app\Models\Pemesanan.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\app\Controllers\PemesananController.php(14): App\Models\Pemesanan->getDataPemesananRestoran('""')
+#6 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\PemesananController->index('""')
+#7 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemesananController))
+#8 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\D...')
+#11 {main}
+CRITICAL - 2023-12-14 13:01:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`END` ASC' at line 4
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT `Pemesanan`.`id`, `Pemesanan`.`tanggalPemesanan` as `orderDate`, `Pemesanan`.`totalHarga`, `Pemesanan`.`status`
+FROM `Pemesanan`
+WHERE `Pemesanan`.`restoranId` = :Pemesanan.restoranId:
+ORDER BY `Pemesanan`.`tanggalPemesanan` DESC, `CASE WHEN Pemesanan`.`status = "Ongoing" THEN 0 ELSE 1` `END` ASC', [...], false)
+ 2 APPPATH\Models\Pemesanan.php(27): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\PemesananController.php(14): App\Models\Pemesanan->getDataPemesananRestoran('""')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PemesananController->index('""')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemesananController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\tst\\TST-CodeIgniter\\public\\index.php')
+ERROR - 2023-12-14 13:01:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`END` ASC' at line 4 in C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `Pemesan...', 0)
+#1 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Pemesan...')
+#2 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Pemesan...')
+#3 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT `Pemesan...', Array, false)
+#4 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\app\Models\Pemesanan.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\app\Controllers\PemesananController.php(14): App\Models\Pemesanan->getDataPemesananRestoran('""')
+#6 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\PemesananController->index('""')
+#7 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemesananController))
+#8 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\D...')
+#11 {main}
+CRITICAL - 2023-12-14 13:01:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`END` ASC' at line 4
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT `Pemesanan`.`id`, `Pemesanan`.`tanggalPemesanan` as `orderDate`, `Pemesanan`.`totalHarga`, `Pemesanan`.`status`
+FROM `Pemesanan`
+WHERE `Pemesanan`.`restoranId` = :Pemesanan.restoranId:
+ORDER BY `Pemesanan`.`tanggalPemesanan` DESC, `CASE WHEN Pemesanan`.`status = "Ongoing" THEN 0 ELSE 1` `END` ASC', [...], false)
+ 2 APPPATH\Models\Pemesanan.php(27): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\PemesananController.php(14): App\Models\Pemesanan->getDataPemesananRestoran('""')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PemesananController->index('""')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemesananController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\tst\\TST-CodeIgniter\\public\\index.php')
+ERROR - 2023-12-14 13:01:23 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`END` ASC' at line 4 in C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `Pemesan...', 0)
+#1 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Pemesan...')
+#2 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Pemesan...')
+#3 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT `Pemesan...', Array, false)
+#4 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\app\Models\Pemesanan.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\app\Controllers\PemesananController.php(14): App\Models\Pemesanan->getDataPemesananRestoran('')
+#6 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\PemesananController->index('')
+#7 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemesananController))
+#8 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\ASUS\Documents\tst\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\D...')
+#11 {main}
+CRITICAL - 2023-12-14 13:01:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`END` ASC' at line 4
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT `Pemesanan`.`id`, `Pemesanan`.`tanggalPemesanan` as `orderDate`, `Pemesanan`.`totalHarga`, `Pemesanan`.`status`
+FROM `Pemesanan`
+WHERE `Pemesanan`.`restoranId` = :Pemesanan.restoranId:
+ORDER BY `Pemesanan`.`tanggalPemesanan` DESC, `CASE WHEN Pemesanan`.`status = "Ongoing" THEN 0 ELSE 1` `END` ASC', [...], false)
+ 2 APPPATH\Models\Pemesanan.php(27): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\PemesananController.php(14): App\Models\Pemesanan->getDataPemesananRestoran('')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PemesananController->index('')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemesananController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\ASUS\\Documents\\tst\\TST-CodeIgniter\\public\\index.php')
+INFO - 2023-12-14 13:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:03:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:04:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:14:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:14:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:14:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:29:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:29:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:30:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:30:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:08:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:08:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:08:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:08:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 17:14:59 --> Declaration of App\Controllers\PemesananController::index($seg1) must be compatible with CodeIgniter\RESTful\ResourceController::index()
+in APPPATH\Controllers\PemesananController.php on line 10.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
