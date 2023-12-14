@@ -3,11 +3,13 @@ module.exports = {
   content: ["./app/Views/**/*.php"],
   theme: {
     fontFamily: {
-      'logo': ["'Lexend Exa'", 'sans-serif'],
-      'text': ["'Inter'", 'sans-serif'],
+      logo: ["'Lexend Exa'", "sans-serif"],
+      text: ["'Inter'", "sans-serif"],
     },
     extend: {},
+    daisyui: {
+      themes: [],
+    },
   },
   plugins: [require("daisyui")],
-}
-
+};

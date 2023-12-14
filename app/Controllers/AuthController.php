@@ -8,10 +8,9 @@ class AuthController extends BaseController
 {
     public function index()
     {
-        if (session()->get('isLoggedIn'))
-        {
+        if (session()->get('isLoggedIn')) {
             return redirect()
-                ->to('/');
+                ->to('/restoran');
         }
         helper(['form']);
         echo view('sign-in');
@@ -39,7 +38,7 @@ class AuthController extends BaseController
                     'isLoggedIn' => TRUE
                 ];
                 $session->set($ses_data);
-                return redirect()->to('/');
+                return redirect()->to('/restoran');
             } else {
                 $session->setFlashdata('msg', 'Password is incorrect.');
                 return redirect()->to('/login');
