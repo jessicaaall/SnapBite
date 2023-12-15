@@ -7,7 +7,7 @@
         <?php if (session()->get('isLoggedIn')) : ?>
             <div class="flex flex-row space-x-2 md:space-x-8">
                 <button onclick="redirectToRestoran()" class="font-text font-semibold bg-[#FFEFEF] px-4 md:px-8 rounded-md text-sm md:text-lg text-black py-2 my-auto hover:bg-[#FFCBCB]">Home</button>
-                <button class="font-text font-semibold bg-[#FFEFEF] px-4 md:px-8 rounded-md text-sm md:text-lg text-black py-2 my-auto hover:bg-[#FFCBCB]">My Order</button>
+                <button onclick="redirectToCart()" class="font-text font-semibold bg-[#FFEFEF] px-4 md:px-8 rounded-md text-sm md:text-lg text-black py-2 my-auto hover:bg-[#FFCBCB]">My Order</button>
                 <div class="dropdown dropdown-end">
                     <button tabindex="0" class="m-1">
                         <svg class="my-auto w-6 h-6 md:w-12 md:h-12 text-black -left-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -28,6 +28,10 @@
 </div>
 <script>
     function redirectToRestoran() {
-        window.location.href = '<?= base_url('restoran'); ?>';
+        window.location.href = '<?= base_url(''); ?>';
+    }
+
+    function redirectToCart() {
+        window.location.href = '<?= base_url('/cart'); ?>';
     }
 </script>

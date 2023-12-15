@@ -1,0 +1,1430 @@
+INFO - 2023-12-14 07:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 07:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 07:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 07:57:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 07:59:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 07:59:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 07:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 07:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:00:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:11:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:11:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:14:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 08:14:26 --> Undefined variable $restoranitem
+in APPPATH\Views\makanan.php on line 7.
+ 1 APPPATH\Views\makanan.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $restoranitem', 'C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\app\\Views\\makanan.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\app\\Views\\makanan.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1172): CodeIgniter\View\View->render('makanan', [], true)
+ 5 APPPATH\Controllers\HomeController.php(54): view('makanan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\HomeController->makanan('2')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\public\\index.php')
+INFO - 2023-12-14 08:14:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:15:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:17:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:18:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:45:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:46:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:50:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:50:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:52:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:52:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:54:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:57:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:58:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:58:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:59:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:59:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:59:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 08:59:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 09:31:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 09:31:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 09:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 09:31:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 09:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 09:32:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 09:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 09:37:58 --> Undefined variable $makanan
+in APPPATH\Views\cart.php on line 36.
+ 1 APPPATH\Views\cart.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $makanan', 'C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\app\\Views\\cart.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\app\\Views\\cart.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1172): CodeIgniter\View\View->render('cart', [], true)
+ 5 APPPATH\Controllers\HomeController.php(79): view('cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\HomeController->cart()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\public\\index.php')
+INFO - 2023-12-14 09:38:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 09:38:21 --> Undefined array key "image"
+in APPPATH\Views\cart.php on line 24.
+ 1 APPPATH\Views\cart.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\app\\Views\\cart.php', 24)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\app\\Views\\cart.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1172): CodeIgniter\View\View->render('cart', [], true)
+ 5 APPPATH\Controllers\HomeController.php(79): view('cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\HomeController->cart()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\public\\index.php')
+INFO - 2023-12-14 09:38:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 09:38:30 --> Undefined array key "namaRestoran"
+in APPPATH\Views\cart.php on line 25.
+ 1 APPPATH\Views\cart.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "namaRestoran"', 'C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\app\\Views\\cart.php', 25)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\app\\Views\\cart.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1172): CodeIgniter\View\View->render('cart', [], true)
+ 5 APPPATH\Controllers\HomeController.php(79): view('cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\HomeController->cart()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\public\\index.php')
+INFO - 2023-12-14 09:38:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 09:38:42 --> Undefined variable $makanan
+in APPPATH\Views\cart.php on line 36.
+ 1 APPPATH\Views\cart.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $makanan', 'C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\app\\Views\\cart.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\app\\Views\\cart.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1172): CodeIgniter\View\View->render('cart', [], true)
+ 5 APPPATH\Controllers\HomeController.php(79): view('cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\HomeController->cart()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\public\\index.php')
+INFO - 2023-12-14 09:38:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 09:38:59 --> Undefined array key "namaMakanan"
+in APPPATH\Views\cart.php on line 40.
+ 1 APPPATH\Views\cart.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "namaMakanan"', 'C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\app\\Views\\cart.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\app\\Views\\cart.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1172): CodeIgniter\View\View->render('cart', [], true)
+ 5 APPPATH\Controllers\HomeController.php(79): view('cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\HomeController->cart()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\public\\index.php')
+INFO - 2023-12-14 09:39:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 09:39:07 --> Undefined array key "foodName"
+in APPPATH\Views\cart.php on line 40.
+ 1 APPPATH\Views\cart.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "foodName"', 'C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\app\\Views\\cart.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\app\\Views\\cart.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1172): CodeIgniter\View\View->render('cart', [], true)
+ 5 APPPATH\Controllers\HomeController.php(79): view('cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\HomeController->cart()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\public\\index.php')
+INFO - 2023-12-14 09:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 09:39:22 --> Array to string conversion
+in APPPATH\Views\cart.php on line 40.
+ 1 APPPATH\Views\cart.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\app\\Views\\cart.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\app\\Views\\cart.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1172): CodeIgniter\View\View->render('cart', [], true)
+ 5 APPPATH\Controllers\HomeController.php(79): view('cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\HomeController->cart()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\public\\index.php')
+INFO - 2023-12-14 09:39:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 09:39:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 09:39:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 09:40:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 09:40:02 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'sql12668373'@'103.213.129.60' (using password: YES) in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql12.freesqlda...', 'sql12668373', Object(SensitiveParameterValue), 'sql12668373', 3306, '', 0)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(672): CodeIgniter\Model->doFirst()
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'103.213.129.60' (using password: YES) in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(672): CodeIgniter\Model->doFirst()
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#11 {main}
+CRITICAL - 2023-12-14 09:40:02 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'103.213.129.60' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Customer`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(672): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\public\\index.php')
+INFO - 2023-12-14 09:40:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 09:40:05 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'sql12668373'@'103.213.129.60' (using password: YES) in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql12.freesqlda...', 'sql12668373', Object(SensitiveParameterValue), 'sql12668373', 3306, '', 0)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(672): CodeIgniter\Model->doFirst()
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'103.213.129.60' (using password: YES) in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(672): CodeIgniter\Model->doFirst()
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#11 {main}
+CRITICAL - 2023-12-14 09:40:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'103.213.129.60' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Customer`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(672): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\public\\index.php')
+INFO - 2023-12-14 09:40:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 09:40:06 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'sql12668373'@'103.213.129.60' (using password: YES) in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql12.freesqlda...', 'sql12668373', Object(SensitiveParameterValue), 'sql12668373', 3306, '', 0)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(672): CodeIgniter\Model->doFirst()
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'103.213.129.60' (using password: YES) in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(672): CodeIgniter\Model->doFirst()
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#11 {main}
+CRITICAL - 2023-12-14 09:40:06 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'103.213.129.60' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Customer`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(672): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\public\\index.php')
+INFO - 2023-12-14 09:40:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 09:40:06 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'sql12668373'@'103.213.129.60' (using password: YES) in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql12.freesqlda...', 'sql12668373', Object(SensitiveParameterValue), 'sql12668373', 3306, '', 0)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(672): CodeIgniter\Model->doFirst()
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'103.213.129.60' (using password: YES) in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(672): CodeIgniter\Model->doFirst()
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#11 {main}
+CRITICAL - 2023-12-14 09:40:06 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'103.213.129.60' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Customer`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(672): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\public\\index.php')
+INFO - 2023-12-14 09:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 09:40:07 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'sql12668373'@'103.213.129.60' (using password: YES) in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql12.freesqlda...', 'sql12668373', Object(SensitiveParameterValue), 'sql12668373', 3306, '', 0)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(672): CodeIgniter\Model->doFirst()
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'103.213.129.60' (using password: YES) in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(672): CodeIgniter\Model->doFirst()
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#11 {main}
+CRITICAL - 2023-12-14 09:40:07 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'103.213.129.60' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Customer`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(672): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\public\\index.php')
+INFO - 2023-12-14 09:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 09:40:07 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'sql12668373'@'103.213.129.60' (using password: YES) in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql12.freesqlda...', 'sql12668373', Object(SensitiveParameterValue), 'sql12668373', 3306, '', 0)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(672): CodeIgniter\Model->doFirst()
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'103.213.129.60' (using password: YES) in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(672): CodeIgniter\Model->doFirst()
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#11 {main}
+CRITICAL - 2023-12-14 09:40:07 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'103.213.129.60' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Customer`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(672): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\public\\index.php')
+INFO - 2023-12-14 09:40:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 09:40:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 09:40:11 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'sql12668373'@'103.213.129.60' (using password: YES) in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql12.freesqlda...', 'sql12668373', Object(SensitiveParameterValue), 'sql12668373', 3306, '', 0)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(672): CodeIgniter\Model->doFirst()
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'103.213.129.60' (using password: YES) in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(672): CodeIgniter\Model->doFirst()
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#11 {main}
+CRITICAL - 2023-12-14 09:40:11 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'103.213.129.60' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Customer`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(672): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\public\\index.php')
+INFO - 2023-12-14 09:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 09:41:11 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'sql12668373'@'103.213.129.60' (using password: YES) in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql12.freesqlda...', 'sql12668373', Object(SensitiveParameterValue), 'sql12668373', 3306, '', 0)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(672): CodeIgniter\Model->doFirst()
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'103.213.129.60' (using password: YES) in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(672): CodeIgniter\Model->doFirst()
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#11 {main}
+CRITICAL - 2023-12-14 09:41:11 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'103.213.129.60' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Customer`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(672): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\public\\index.php')
+INFO - 2023-12-14 09:41:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 09:41:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 09:41:18 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'sql12668373'@'103.213.129.60' (using password: YES) in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql12.freesqlda...', 'sql12668373', Object(SensitiveParameterValue), 'sql12668373', 3306, '', 0)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(672): CodeIgniter\Model->doFirst()
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'103.213.129.60' (using password: YES) in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(672): CodeIgniter\Model->doFirst()
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#11 {main}
+CRITICAL - 2023-12-14 09:41:18 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'103.213.129.60' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Customer`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(672): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\public\\index.php')
+INFO - 2023-12-14 09:43:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 09:43:48 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'sql12668373'@'103.213.129.60' (using password: YES) in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql12.freesqlda...', 'sql12668373', Object(SensitiveParameterValue), 'sql12668373', 3306, '', 0)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(672): CodeIgniter\Model->doFirst()
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'103.213.129.60' (using password: YES) in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(672): CodeIgniter\Model->doFirst()
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#11 {main}
+CRITICAL - 2023-12-14 09:43:48 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'103.213.129.60' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Customer`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(672): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\public\\index.php')
+INFO - 2023-12-14 09:43:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 09:43:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 09:43:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 09:43:57 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'sql12668373'@'103.213.129.60' (using password: YES) in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql12.freesqlda...', 'sql12668373', Object(SensitiveParameterValue), 'sql12668373', 3306, '', 0)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(672): CodeIgniter\Model->doFirst()
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'103.213.129.60' (using password: YES) in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(672): CodeIgniter\Model->doFirst()
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#11 {main}
+CRITICAL - 2023-12-14 09:43:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'103.213.129.60' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Customer`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(672): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\public\\index.php')
+INFO - 2023-12-14 09:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 09:59:04 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'sql12668373'@'103.213.129.60' (using password: YES) in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql12.freesqlda...', 'sql12668373', Object(SensitiveParameterValue), 'sql12668373', 3306, '', 0)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(672): CodeIgniter\Model->doFirst()
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'103.213.129.60' (using password: YES) in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(672): CodeIgniter\Model->doFirst()
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#11 {main}
+CRITICAL - 2023-12-14 09:59:04 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'103.213.129.60' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Customer`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(672): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\public\\index.php')
+INFO - 2023-12-14 09:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 09:59:06 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'sql12668373'@'103.213.129.60' (using password: YES) in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql12.freesqlda...', 'sql12668373', Object(SensitiveParameterValue), 'sql12668373', 3306, '', 0)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(672): CodeIgniter\Model->doFirst()
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'103.213.129.60' (using password: YES) in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(672): CodeIgniter\Model->doFirst()
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#11 {main}
+CRITICAL - 2023-12-14 09:59:06 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'103.213.129.60' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Customer`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(672): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\public\\index.php')
+INFO - 2023-12-14 09:59:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 09:59:07 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'sql12668373'@'103.213.129.60' (using password: YES) in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql12.freesqlda...', 'sql12668373', Object(SensitiveParameterValue), 'sql12668373', 3306, '', 0)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(672): CodeIgniter\Model->doFirst()
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'103.213.129.60' (using password: YES) in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(672): CodeIgniter\Model->doFirst()
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#11 {main}
+CRITICAL - 2023-12-14 09:59:07 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'103.213.129.60' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Customer`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(672): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\public\\index.php')
+INFO - 2023-12-14 10:00:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 10:00:23 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'sql12668373'@'103.213.129.60' (using password: YES) in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql12.freesqlda...', 'sql12668373', Object(SensitiveParameterValue), 'sql12668373', 3306, '', 0)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(672): CodeIgniter\Model->doFirst()
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'103.213.129.60' (using password: YES) in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(672): CodeIgniter\Model->doFirst()
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#11 {main}
+CRITICAL - 2023-12-14 10:00:23 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'103.213.129.60' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Customer`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(672): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\public\\index.php')
+INFO - 2023-12-14 10:00:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 10:00:24 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'sql12668373'@'103.213.129.60' (using password: YES) in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql12.freesqlda...', 'sql12668373', Object(SensitiveParameterValue), 'sql12668373', 3306, '', 0)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(672): CodeIgniter\Model->doFirst()
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'103.213.129.60' (using password: YES) in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(672): CodeIgniter\Model->doFirst()
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#11 {main}
+CRITICAL - 2023-12-14 10:00:24 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'103.213.129.60' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Customer`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(672): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\public\\index.php')
+INFO - 2023-12-14 10:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 10:00:25 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'sql12668373'@'103.213.129.60' (using password: YES) in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql12.freesqlda...', 'sql12668373', Object(SensitiveParameterValue), 'sql12668373', 3306, '', 0)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(672): CodeIgniter\Model->doFirst()
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'103.213.129.60' (using password: YES) in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(672): CodeIgniter\Model->doFirst()
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#11 {main}
+CRITICAL - 2023-12-14 10:00:25 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'103.213.129.60' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Customer`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(672): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\public\\index.php')
+INFO - 2023-12-14 10:00:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 10:00:27 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'sql12668373'@'103.213.129.60' (using password: YES) in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql12.freesqlda...', 'sql12668373', Object(SensitiveParameterValue), 'sql12668373', 3306, '', 0)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(672): CodeIgniter\Model->doFirst()
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'103.213.129.60' (using password: YES) in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(672): CodeIgniter\Model->doFirst()
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#11 {main}
+CRITICAL - 2023-12-14 10:00:27 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'103.213.129.60' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Customer`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(672): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\public\\index.php')
+INFO - 2023-12-14 10:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 10:00:31 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'sql12668373'@'103.213.129.60' (using password: YES) in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql12.freesqlda...', 'sql12668373', Object(SensitiveParameterValue), 'sql12668373', 3306, '', 0)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(672): CodeIgniter\Model->doFirst()
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'103.213.129.60' (using password: YES) in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(672): CodeIgniter\Model->doFirst()
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#11 {main}
+CRITICAL - 2023-12-14 10:00:31 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'103.213.129.60' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Customer`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(672): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\public\\index.php')
+INFO - 2023-12-14 10:00:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 10:00:59 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'sql12668373'@'103.213.129.60' (using password: YES) in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('sql12.freesqlda...', 'sql12668373', Object(SensitiveParameterValue), 'sql12668373', 3306, '', 0)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(672): CodeIgniter\Model->doFirst()
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'103.213.129.60' (using password: YES) in C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\BaseModel.php(672): CodeIgniter\Model->doFirst()
+#5 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\app\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+#6 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+#7 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Administrator\Filbert Felim\TST-CodeIgniter\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Admini...')
+#11 {main}
+CRITICAL - 2023-12-14 10:00:59 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'103.213.129.60' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Customer`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(269): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(672): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\AuthController.php(26): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->loginAuth()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\public\\index.php')
+INFO - 2023-12-14 10:17:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 10:17:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 10:17:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 10:17:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 10:17:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 10:17:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 10:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 10:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 10:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 10:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:13:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:13:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:13:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:13:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:13:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:13:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:13:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:13:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:13:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:13:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:19:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:19:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 12:19:45 --> 22 : The requested URL returned error: 404
+in SYSTEMPATH\HTTP\CURLRequest.php on line 693.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(693): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 404')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(387): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(145): CodeIgniter\HTTP\CURLRequest->send('get', 'http://localhost:8081/restoranbyid/')
+ 4 APPPATH\Controllers\PageController.php(69): CodeIgniter\HTTP\CURLRequest->request('get', 'http://localhost:8081/restoranbyid/', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PageController->cart()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PageController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\public\\index.php')
+INFO - 2023-12-14 12:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 12:20:32 --> 22 : The requested URL returned error: 404
+in SYSTEMPATH\HTTP\CURLRequest.php on line 693.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(693): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 404')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(387): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(145): CodeIgniter\HTTP\CURLRequest->send('get', 'http://localhost:8081/restoranbyid/')
+ 4 APPPATH\Controllers\PageController.php(69): CodeIgniter\HTTP\CURLRequest->request('get', 'http://localhost:8081/restoranbyid/', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PageController->cart()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PageController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\public\\index.php')
+INFO - 2023-12-14 12:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 12:21:46 --> 22 : The requested URL returned error: 404
+in SYSTEMPATH\HTTP\CURLRequest.php on line 693.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(693): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 404')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(387): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(145): CodeIgniter\HTTP\CURLRequest->send('get', 'http://localhost:8081/restoranbyid/')
+ 4 APPPATH\Controllers\PageController.php(69): CodeIgniter\HTTP\CURLRequest->request('get', 'http://localhost:8081/restoranbyid/', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PageController->cart()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PageController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\public\\index.php')
+INFO - 2023-12-14 12:21:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 12:21:46 --> 22 : The requested URL returned error: 404
+in SYSTEMPATH\HTTP\CURLRequest.php on line 693.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(693): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 404')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(387): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(145): CodeIgniter\HTTP\CURLRequest->send('get', 'http://localhost:8081/restoranbyid/')
+ 4 APPPATH\Controllers\PageController.php(69): CodeIgniter\HTTP\CURLRequest->request('get', 'http://localhost:8081/restoranbyid/', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PageController->cart()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PageController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\public\\index.php')
+INFO - 2023-12-14 12:21:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 12:21:46 --> 22 : The requested URL returned error: 404
+in SYSTEMPATH\HTTP\CURLRequest.php on line 693.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(693): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 404')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(387): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(145): CodeIgniter\HTTP\CURLRequest->send('get', 'http://localhost:8081/restoranbyid/')
+ 4 APPPATH\Controllers\PageController.php(69): CodeIgniter\HTTP\CURLRequest->request('get', 'http://localhost:8081/restoranbyid/', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PageController->cart()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PageController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\public\\index.php')
+INFO - 2023-12-14 12:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 12:21:47 --> 22 : The requested URL returned error: 404
+in SYSTEMPATH\HTTP\CURLRequest.php on line 693.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(693): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 404')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(387): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(145): CodeIgniter\HTTP\CURLRequest->send('get', 'http://localhost:8081/restoranbyid/')
+ 4 APPPATH\Controllers\PageController.php(69): CodeIgniter\HTTP\CURLRequest->request('get', 'http://localhost:8081/restoranbyid/', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PageController->cart()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PageController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\public\\index.php')
+INFO - 2023-12-14 12:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 12:21:47 --> 22 : The requested URL returned error: 404
+in SYSTEMPATH\HTTP\CURLRequest.php on line 693.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(693): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 404')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(387): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(145): CodeIgniter\HTTP\CURLRequest->send('get', 'http://localhost:8081/restoranbyid/')
+ 4 APPPATH\Controllers\PageController.php(69): CodeIgniter\HTTP\CURLRequest->request('get', 'http://localhost:8081/restoranbyid/', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PageController->cart()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PageController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\public\\index.php')
+INFO - 2023-12-14 12:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 12:21:47 --> 22 : The requested URL returned error: 404
+in SYSTEMPATH\HTTP\CURLRequest.php on line 693.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(693): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 404')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(387): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(145): CodeIgniter\HTTP\CURLRequest->send('get', 'http://localhost:8081/restoranbyid/')
+ 4 APPPATH\Controllers\PageController.php(69): CodeIgniter\HTTP\CURLRequest->request('get', 'http://localhost:8081/restoranbyid/', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PageController->cart()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PageController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\public\\index.php')
+INFO - 2023-12-14 12:21:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 12:21:59 --> 22 : The requested URL returned error: 404
+in SYSTEMPATH\HTTP\CURLRequest.php on line 693.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(693): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 404')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(387): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(145): CodeIgniter\HTTP\CURLRequest->send('get', 'http://localhost:8081/restoranbyid/')
+ 4 APPPATH\Controllers\PageController.php(69): CodeIgniter\HTTP\CURLRequest->request('get', 'http://localhost:8081/restoranbyid/', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PageController->cart()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PageController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\public\\index.php')
+INFO - 2023-12-14 12:22:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:24:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:24:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 12:24:24 --> Undefined variable $restoran
+in APPPATH\Views\cart.php on line 22.
+ 1 APPPATH\Views\cart.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $restoran', 'C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\app\\Views\\cart.php', 22)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\app\\Views\\cart.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1172): CodeIgniter\View\View->render('cart', [], true)
+ 5 APPPATH\Controllers\PageController.php(81): view('cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PageController->cart()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PageController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\public\\index.php')
+INFO - 2023-12-14 12:24:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:26:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:26:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:26:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:27:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:27:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:27:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 12:27:18 --> Undefined array key "kalori"
+in APPPATH\Views\cart.php on line 40.
+ 1 APPPATH\Views\cart.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kalori"', 'C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\app\\Views\\cart.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\app\\Views\\cart.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1172): CodeIgniter\View\View->render('cart', [], true)
+ 5 APPPATH\Controllers\PageController.php(85): view('cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PageController->cart()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PageController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Administrator\\Filbert Felim\\TST-CodeIgniter\\public\\index.php')
+INFO - 2023-12-14 12:27:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:28:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:28:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:28:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:05:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:06:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:06:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:06:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:06:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:08:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:08:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:08:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:08:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:08:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 15:08:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:49:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:58:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 16:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:00:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:00:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:03:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:04:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:07:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:09:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:09:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:09:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:09:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:11:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:13:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:14:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:14:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:15:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:18:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:36:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:36:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:37:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:37:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:37:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:38:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:39:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:39:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:40:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:40:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:40:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:40:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:52:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:52:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:53:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:53:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:53:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:53:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:54:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:54:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:55:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:55:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:55:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:56:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:56:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:56:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:56:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:56:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:58:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:59:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:59:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:59:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:59:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:59:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 17:59:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:00:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:00:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:00:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:00:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:00:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:01:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:01:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:01:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:01:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:01:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:01:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:01:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:01:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:02:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:02:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:03:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:03:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:06:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:06:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:07:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:07:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:07:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:07:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:07:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:07:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:08:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:08:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:08:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:08:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:09:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:09:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:10:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:10:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:10:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:10:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:10:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:10:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:10:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 18:10:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
