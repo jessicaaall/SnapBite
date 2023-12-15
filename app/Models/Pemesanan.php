@@ -23,10 +23,33 @@ class Pemesanan extends Model
         $builder->join('DetailPemesanan', 'Pemesanan.id = DetailPemesanan.orderId');
         $builder->groupBy('Pemesanan.id');
         $builder->where('Pemesanan.restoranId', (int)$restoranId);
-        $builder->orderBy('Pemesanan.tanggalPemesanan','DESC');
-        $builder->orderBy('Pemesanan.status','DESC');
+        $builder->orderBy('Pemesanan.tanggalPemesanan', 'DESC');
+        $builder->orderBy('Pemesanan.status', 'DESC');
 
         $query = $builder->get();
         return $query->getResult();
+    }
+
+    public function addNewPemesanan($lamaPemesanan, $totalHarga)
+    {
+        $db      = \Config\Database::connect();
+        $builder = $db->table('Pemesanan');
+        $data = [
+            'restoranId' => session()->get('restoranId'),
+            'customerId' => session()->get('id'),
+            'lamaPemesanan' => $lamaPemesanan,
+            'tanggalPemesanan' => date("Y-m-d"),
+            'totalHarga' => $totalHarga,
+            // add more columns and values as needed
+        ];
+        $builder->insert($data);
+
+        $inserted_id = $db->insertID();
+
+        if ($db->affectedRows() > 0) {
+            return $inserted_id;
+        } else {
+            echo 'Failed to insert data.';
+        }
     }
 }

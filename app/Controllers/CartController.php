@@ -3,6 +3,9 @@
 namespace App\Controllers;
 
 use CodeIgniter\RESTful\ResourceController;
+use App\Models\Pemesanan;
+use App\Models\Customer;
+use App\Models\DetailPemesanan;
 
 class CartController extends ResourceController
 {
@@ -76,5 +79,30 @@ class CartController extends ResourceController
         // Save the updated cart back to the session
         session()->set('cart', $cart);
         return $this->response->setJSON(['success' => true, 'message' => 'Cart updated successfully']);
+    }
+
+    public function placeOrder()
+    {
+        $modelPemesanan = model(Pemesanan::class);
+        $modelDetailPemesanan = model(DetailPemesanan::class);
+        $modelCustomer = model(Customer::class);
+        $lamaPemesanan = $this->request->getPost('lamaPemesanan');
+        $totalHarga = $this->request->getPost('totalHarga');
+        $cart = session()->get('cart');
+        $orderId = $modelPemesanan->addNewPemesanan($lamaPemesanan, $totalHarga);
+        foreach ($cart as $foodId => $foodInfo) {
+            // Access individual properties of each food item
+            $name = $foodInfo['foodName'];
+            $harga = $foodInfo['foodHarga'];
+            $kuantitas = $foodInfo['quantity'];
+            $orderDetailsId = $modelDetailPemesanan->addNewDetailPemesanan($orderId, $name, $harga, $kuantitas);
+        }
+        session()->remove('restoranId');
+        session()->remove('cart');
+        $saldoSisa = session()->get('saldo') - $totalHarga;
+        session()->set('saldo', $saldoSisa);
+        $orderDetailsId = $modelCustomer->substractSaldo($saldoSisa);
+
+        return $this->response->setJSON(['success' => $saldoSisa, 'message' => 'Food ordered successfully', 'id' => $orderDetailsId]);
     }
 }

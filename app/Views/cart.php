@@ -12,6 +12,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Custom styles for the toast */
+        #toast {
+            display: none;
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            padding: 1rem;
+            background-color: #C51841;
+            color: white;
+            border-radius: 0.5rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
 </head>
 
 <body>
@@ -78,21 +92,35 @@
                         <p class="font-text text-black text-lg font-bold">Balance : </p>
                         <p class="balance font-text text-black text-lg font-bold"></p>
                     </div>
-                    <button class="pay bg-[#C51841] hover:bg-[#5e1f2e] text-white text-bold text-2xl mt-4 py-2 rounded-lg">PLACE ORDER</button>
+                    <?php if (count($restoran) !== 0) : ?>
+                        <button class="pay bg-[#C51841] hover:bg-[#5e1f2e] text-white text-bold text-2xl mt-4 py-2 rounded-lg">PLACE ORDER</button>
+                    <?php else : ?>
+                        <button class="btn btn-disabled pay bg-[#C51841] hover:bg-[#5e1f2e] text-white text-bold text-2xl mt-4 py-2 rounded-lg">PLACE ORDER</button>
+                    <?php endif ?>
+
                 </div>
             </div>
         </div>
     </div>
+    <div id="toast"></div>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script>
         var customerLokasiX = <?= json_encode($lokasiX) ?>;
         var customerLokasiY = <?= json_encode($lokasiY) ?>;
         var restoran = <?= json_encode($restoran) ?>;
         var cart = <?= json_encode($cart) ?>;
-        console.log(restoran);
-        console.log(cart);
 
         $(document).ready(function() {
+            function showToast(message) {
+                var toast = $('#toast');
+                toast.text(message);
+                toast.fadeIn();
+
+                // Hide the toast after 2 seconds
+                setTimeout(function() {
+                    toast.fadeOut();
+                }, 2000);
+            }
             const balance = new Intl.NumberFormat('id-ID', {
                 style: 'currency',
                 currency: 'IDR',
@@ -133,22 +161,22 @@
             }).format(countDeliveryFee(customerLokasiX, customerLokasiY, restoran));
             $('.delivery').append(formattedDeliveryFee);
 
-            function countOrderFee(cart) {
-                var totalOrderFee = 0;
+            function countProcessTime(cart) {
+                var totalProcessTime = 0;
                 Object.keys(cart).forEach(function(key) {
-                    totalOrderFee += parseInt(cart[key]["foodWaktuProses"]);
+                    totalProcessTime += parseInt(cart[key]["foodWaktuProses"]);
                 })
-                return totalOrderFee * 100;
+                return totalProcessTime;
             }
             const formattedOrderFee = new Intl.NumberFormat('id-ID', {
                 style: 'currency',
                 currency: 'IDR',
                 minimumFractionDigits: 0,
-            }).format(countOrderFee(cart));
+            }).format(countProcessTime(cart) * 100);
             $('.order').append(formattedOrderFee);
 
             function countTotalPrice(customerLokasiX, customerLokasiY, restoran, cart) {
-                return countOrderFee(cart) + countDeliveryFee(customerLokasiX, customerLokasiY, restoran) + countFoodPrice(cart);
+                return countProcessTime(cart) * 100 + countDeliveryFee(customerLokasiX, customerLokasiY, restoran) + countFoodPrice(cart);
             }
 
             const formattedTotalPrice = new Intl.NumberFormat('id-ID', {
@@ -199,6 +227,35 @@
                 const foodId = $(this).data('foodid');
                 updateCart(foodId, 'delete');
             });
+
+            $('.pay').on('click', function() {
+                placeOrder(countProcessTime(cart), countTotalPrice(customerLokasiX, customerLokasiY, restoran, cart));
+            });
+
+            function placeOrder(lamaPemesanan, totalHarga) {
+                if (<?= $saldo ?> >= countTotalPrice(customerLokasiX, customerLokasiY, restoran, cart)) {
+                    $.ajax({
+                        type: 'POST',
+                        url: 'http://localhost:8080/cart/placeOrder',
+                        data: {
+                            lamaPemesanan: lamaPemesanan,
+                            totalHarga: totalHarga
+                        },
+                        success: function(response) {
+                            // Handle the response from the server (e.g., update the UI)
+                            console.log(response);
+                            window.location.reload();
+                            // Optionally, you can reload the page or update the UI without a page refresh
+                        },
+                        error: function(error) {
+                            console.log(error);
+                        }
+                    });
+                } else {
+                    showToast("Not enough balance!!!")
+                }
+
+            }
 
             function updateCart(foodId, action) {
                 $.ajax({

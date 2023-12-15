@@ -26,4 +26,25 @@ class DetailPemesanan extends Model
         $query = $builder->get();
         return $query->getResult();
     }
+
+    public function addNewDetailPemesanan($orderId, $namaMakanan, $harga, $kuantitas)
+    {
+        $db      = \Config\Database::connect();
+        $builder = $db->table('DetailPemesanan');
+        $data = [
+            'orderId' => $orderId,
+            'namaMakanan' => $namaMakanan,
+            'harga' => $harga,
+            'jumlah' => $kuantitas,
+        ];
+        $builder->insert($data);
+
+        $inserted_id = $db->insertID();
+
+        if ($db->affectedRows() > 0) {
+            return $inserted_id;
+        } else {
+            echo 'Failed to insert data.';
+        }
+    }
 }
