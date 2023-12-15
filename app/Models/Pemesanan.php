@@ -19,7 +19,9 @@ class Pemesanan extends Model
         $db      = \Config\Database::connect();
         $builder = $db->table('Pemesanan');
 
-        $builder->select('Pemesanan.id, Pemesanan.tanggalPemesanan as orderDate, Pemesanan.totalHarga, Pemesanan.status');
+        $builder->select('Pemesanan.id, Pemesanan.tanggalPemesanan as orderDate, Pemesanan.status, sum(DetailPemesanan.harga * DetailPemesanan.jumlah) as totalHarga');
+        $builder->join('DetailPemesanan', 'Pemesanan.id = DetailPemesanan.orderId');
+        $builder->groupBy('Pemesanan.id');
         $builder->where('Pemesanan.restoranId', (int)$restoranId);
         $builder->orderBy('Pemesanan.tanggalPemesanan','DESC');
         $builder->orderBy('Pemesanan.status','DESC');
