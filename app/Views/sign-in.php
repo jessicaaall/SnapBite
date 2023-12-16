@@ -7,7 +7,7 @@
     <title>Login</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/styles.css?v=1.0">
+    <link rel="stylesheet" href="<?= base_url('css/styles.css'); ?>">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@600&display=swap" rel="stylesheet">
@@ -16,7 +16,7 @@
 
 <body>
     <div class="w-screen h-screen bg-[#FFEFEF]">
-        <?php include 'navbar.php';?>
+        <?php include 'navbar.php'; ?>
         <div class="flex justify-center bg-[#FFEFEF]">
             <div class="container w-max h-max mt-36 mx-8 px-10 py-16 md:p-16 bg-white rounded-3xl">
                 <div class="col-5">

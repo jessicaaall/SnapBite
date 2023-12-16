@@ -12,6 +12,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Custom styles for the toast */
+        #toast {
+            display: none;
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            padding: 1rem;
+            background-color: #48BB78;
+            color: white;
+            border-radius: 0.5rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
 </head>
 
 <body>
@@ -40,7 +54,7 @@
                                 <h2 class="font-text font-bold text-black"><?= $makananitem['namaMakanan']; ?></h2>
                                 <p class="font-text text-black"><?= $makananitem['kalori']; ?> Kalori | <span class="priceResult font-text text-black"></span></p>
                                 <div class="card-actions justify-end">
-                                    <button class="bg-[#FFCBCB] text-black font-semibold font-text w-24 h-12 hover:bg-[#ffacac] rounded-xl">Pesan</button>
+                                    <button data-food-waktuproses="<?= $makananitem['waktuProses']; ?>" data-food-harga="<?= $makananitem['harga']; ?>" data-food-kalori="<?= $makananitem['kalori']; ?>" data-food-id="<?= $makananitem['id']; ?>" data-food-name="<?= $makananitem['namaMakanan']; ?>" data-restoran-id="<?= $makananitem['restoranId']; ?>" class="addtocart bg-[#FFCBCB] text-black font-semibold font-text w-12 h-8 hover:bg-[#ffacac] rounded-xl">+</button>
                                 </div>
                             </div>
                         </div>
@@ -49,6 +63,7 @@
             </div>
         </div>
     </div>
+    <div id="toast"></div>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script>
         var customerLokasiX = <?= json_encode($lokasiX) ?>;
@@ -56,6 +71,18 @@
         var restoran = <?= json_encode($restoran) ?>;
         const restoranId = restoran[0]['id'];
         $(document).ready(function() {
+
+            function showToast(message) {
+                var toast = $('#toast');
+                toast.text(message);
+                toast.fadeIn();
+
+                // Hide the toast after 2 seconds
+                setTimeout(function() {
+                    toast.fadeOut();
+                }, 500);
+            }
+
             $.ajax({
                 type: 'GET',
                 url: 'http://localhost:8081/restoranbyid/' + restoranId,
@@ -69,6 +96,17 @@
                 error: function(error) {
                     console.log(error);
                 }
+            });
+
+            $('#makananContainer').on('click', '.addtocart', function() {
+                // Get the restaurant ID from the data attribute
+                var foodId = $(this).data('food-id');
+                var foodWaktuProses = $(this).data('food-waktuproses');
+                var foodHarga = $(this).data('food-harga');
+                var foodKalori = $(this).data('food-kalori');
+                var foodName = $(this).data('food-name');
+                var resId = $(this).data('restoran-id');
+                addToCart(foodId, resId, foodWaktuProses, foodHarga, foodKalori, foodName);
             });
 
             $.ajax({
@@ -97,6 +135,36 @@
                 const distance = Math.sqrt(deltaX ** 2 + deltaY ** 2);
                 const roundedDistance = distance.toFixed(1);
                 return parseFloat(roundedDistance);
+            }
+
+            function addToCart(foodId, restoranId, foodWaktuProses, foodHarga, foodKalori, foodName) {
+                // Make an AJAX request to add the food to the cart
+                console.log(foodId);
+                console.log(restoranId);
+                $.ajax({
+                    type: 'POST',
+                    url: '/cart/addToCart',
+                    data: {
+                        foodId: foodId,
+                        restoranId: restoranId,
+                        foodWaktuProses: foodWaktuProses,
+                        foodHarga: foodHarga,
+                        foodKalori: foodKalori,
+                        foodName: foodName,
+                    },
+                    dataType: 'json',
+                    success: function(response) {
+                        if (response.success) {
+                            showToast('Item added to cart successfully.');
+                        } else {
+                            alert('Failed to add food to cart.');
+                        }
+                    },
+                    error: function(error) {
+                        console.log(error);
+                        alert('Error occurred while adding food to cart.');
+                    }
+                });
             }
         });
     </script>
