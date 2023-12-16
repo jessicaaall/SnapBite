@@ -56,7 +56,7 @@
                         <div class="grid grid-cols-1 md:grid-cols-2 py-4">
                             <div class="col-span-1 row-span-1">
                                 <h2 class="font-text font-bold text-black text-lg"><?= $makananitem['foodName']; ?></h2>
-                                <p class="font-text text-black"><?= $makananitem['foodKalori']; ?> Kalori | <span class="priceResult font-text text-black font-bold">Jumlah : <?= $makananitem['quantity']; ?></span></p>
+                                <p class="font-text text-black"><?= $makananitem['foodKalori']; ?> Kalori | <span class="priceResult font-text text-black font-semibold">Jumlah : <?= $makananitem['quantity']; ?> x <?= 'Rp ' . number_format(esc($makananitem['foodHarga']), 0, ',', '.'); ?> -> <?= 'Rp ' . number_format(esc($makananitem['foodHarga'] * $makananitem['quantity']), 0, ',', '.'); ?></span></p>
                             </div>
                             <div class="col-span-1 row-span-1 mt-4 md:mt-8 flex justify-end mr-4 space-x-4">
                                 <button data-foodid="<?= $makananitem['foodId']; ?>" class="substract bg-[#FFCBCB] hover:bg-[#ffacac] btn btn-sm btn-circle text-black text-bold text-4xl pb-12 px-6 border-0">-</button>
