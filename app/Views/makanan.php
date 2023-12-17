@@ -85,7 +85,7 @@
 
             $.ajax({
                 type: 'GET',
-                url: 'http://localhost:8081/restoranbyid/' + restoranId,
+                url: 'http://localhost:8081/restoranbyid/' + restoranId + '?username=richeese&password=richeese123',
                 dataType: 'json',
                 success: function(data) {
                     $.each(data, function(index, item) {
@@ -111,7 +111,7 @@
 
             $.ajax({
                 type: 'GET',
-                url: 'http://localhost:8081/makananAPI/' + restoranId,
+                url: 'http://localhost:8081/makananAPI/' + restoranId + '?username=richeese&password=richeese123',
                 dataType: 'json',
                 success: function(data) {
                     $.each(data, function(index, item) {

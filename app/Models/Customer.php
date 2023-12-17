@@ -35,4 +35,12 @@ class Customer extends Model
             echo 'Failed to update saldo.';
         }
     }
+    public function getUserByUsername(string $username)
+    {
+        return $this->where('username', $username)->first();
+    }
+    public function validatePassword(string $username, string $password)
+    {
+        return $this->getUserByUsername($username)['password'] == md5($password);
+    }
 }

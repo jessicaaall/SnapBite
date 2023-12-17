@@ -61,7 +61,7 @@
                 var datarestoran;
                 $.ajax({
                     type: 'GET',
-                    url: 'http://localhost:8081/restoranAPI/',
+                    url: 'http://localhost:8081/restoranAPI/' + '?username=richeese&password=richeese123',
                     dataType: 'json',
                     success: function(data) {
                         $.each(data, function(index, item) {
@@ -87,7 +87,7 @@
                     }
                     $.ajax({
                         type: 'GET',
-                        url: 'http://localhost:8081/restoranAPI/' + selectedValue,
+                        url: 'http://localhost:8081/restoranAPI/' + selectedValue + '?username=richeese&password=richeese123',
                         dataType: 'json',
                         success: function(data) {
                             datarestoran = data;

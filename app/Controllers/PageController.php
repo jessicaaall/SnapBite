@@ -10,7 +10,7 @@ class PageController extends ResourceController
     {
 
         $client = \Config\Services::curlrequest();
-        $apiURL = 'http://localhost:8081/restoranAPI/"' . $seg1 . '"';
+        $apiURL = 'http://localhost:8081/restoranAPI/' . strval($seg1) . '?username=richeese&password=richeese123';
         $response = $client->request("get", $apiURL, [
             "headers" => [
                 "Accept" => "application/json"
@@ -29,7 +29,7 @@ class PageController extends ResourceController
     {
 
         $client = \Config\Services::curlrequest();
-        $apiURL = 'http://localhost:8081/makananAPI/' . $seg1;
+        $apiURL = 'http://localhost:8081/makananAPI/' . $seg1 . '?username=richeese&password=richeese123';
         $response = $client->request("get", $apiURL, [
             "headers" => [
                 "Accept" => "application/json"
@@ -39,7 +39,7 @@ class PageController extends ResourceController
         if ($response->getStatusCode() == 200) {
             $data['makanan'] = json_decode($response->getBody(), true);
         }
-        $apiURL = 'http://localhost:8081/restoranbyid/' . $seg1;
+        $apiURL = 'http://localhost:8081/restoranbyid/' . strval($seg1) . '?username=richeese&password=richeese123';
         $response = $client->request("get", $apiURL, [
             "headers" => [
                 "Accept" => "application/json"
@@ -66,7 +66,7 @@ class PageController extends ResourceController
         $sessionRestoranId = session()->get('restoranId');
         if ($sessionRestoranId) {
             $data['cart'] = session()->get('cart');
-            $apiURL = 'http://localhost:8081/restoranbyid/' . strval(session()->get('restoranId'));
+            $apiURL = 'http://localhost:8081/restoranbyid/' . strval(session()->get('restoranId')) . '?username=richeese&password=richeese123';
             $response = $client->request("get", $apiURL, [
                 "headers" => [
                     "Accept" => "application/json"
